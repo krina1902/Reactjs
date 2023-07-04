@@ -7,6 +7,7 @@ import Product from './Product';
 import Service from './Service';
 import Contact from './Contact';
 import Help from './Help';
+import Feedback from './Feedback';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
     <Route path='/product' element = {<Product />}/>
     <Route path='/service' element = {<Service />}/>
     <Route path='/contact' element = {<Contact />}/>
-    <Route path='/help' element = {<Help />}/>
+    <Route path='/help' element = {<Help/>}/>
+    <Route path='/feedback' element={<Feedback/>}/>
 
 
    </Routes>
