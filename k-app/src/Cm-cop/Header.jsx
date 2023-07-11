@@ -17,11 +17,13 @@ import {
 } from 'mdb-react-ui-kit';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { Link, Outlet } from 'react-router-dom';
 
 export default function Header() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
+    <>
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>Brand</MDBNavbarBrand>
@@ -38,12 +40,21 @@ export default function Header() {
         <MDBCollapse navbar show={showBasic}>
           <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#'>
-                Home
+              <MDBNavbarLink active aria-current='page'>
+                <Link to="home">Home</Link>
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>Link</MDBNavbarLink>
+              <MDBNavbarLink href='#'><Link to="about">About</Link></MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href='#'><Link to="contact">Contact</Link></MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href='#'><Link to="help">Help</Link></MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href='#'><Link to="demi">Demi</Link></MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
@@ -73,5 +84,7 @@ export default function Header() {
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
+    <Outlet />
+    </>
   );
 }
