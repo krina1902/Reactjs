@@ -41,21 +41,24 @@ export default function Header() {
           <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
             <MDBNavbarItem>
               <MDBNavbarLink active aria-current='page'>
-                <Link to="home">Home</Link>
+                <Link to="/home">Home</Link>
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'><Link to="about">About</Link></MDBNavbarLink>
+              <MDBNavbarLink href='#'><Link to="/about">About</Link></MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'><Link to="contact">Contact</Link></MDBNavbarLink>
+              <MDBNavbarLink href='#'><Link to="/product">Product</Link></MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'><Link to="help">Help</Link></MDBNavbarLink>
+              <MDBNavbarLink href='#'><Link to="/contact">Contact</Link></MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
+              <MDBNavbarLink href='#'><Link to="/help">Help</Link></MDBNavbarLink>
+            </MDBNavbarItem>
+            {/* <MDBNavbarItem>
               <MDBNavbarLink href='#'><Link to="demi">Demi</Link></MDBNavbarLink>
-            </MDBNavbarItem>
+            </MDBNavbarItem> */}
 
             <MDBNavbarItem>
               <MDBDropdown>
