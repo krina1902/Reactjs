@@ -54,6 +54,9 @@ export default function Header() {
               <MDBNavbarLink href='#'><Link to="/contact">Contact</Link></MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
+              <MDBNavbarLink href='#'><Link to="/example">Example</Link></MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
               <MDBNavbarLink href='#'><Link to="/help">Help</Link></MDBNavbarLink>
             </MDBNavbarItem>
             {/* <MDBNavbarItem>
@@ -87,7 +90,6 @@ export default function Header() {
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
-    <Outlet />
     </>
   );
 }
