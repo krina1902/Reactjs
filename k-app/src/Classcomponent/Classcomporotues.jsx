@@ -4,6 +4,7 @@ import Classcompomenu from "./Classcompomenu";
 import Classcompointro from "./Classcompointro";
 import Classcompojsx from "./Classcompojsx";
 import Classcompoprops from "./Classcompoprops";
+import Classcompostate from "./Classcompostate";
 
 class Classcomporoutes extends Component{
     render(){
@@ -13,6 +14,8 @@ class Classcomporoutes extends Component{
                     <Route path="classcompointro" element={<Classcompointro />}/>
                     <Route path="classcompojsx" element={<Classcompojsx />}/>
                     <Route path="classcompoprops" element={<Classcompoprops />}/>
+                    <Route path="classcompostate" element={<Classcompostate />}/>
+
 
                 </Route>
             </Routes>
