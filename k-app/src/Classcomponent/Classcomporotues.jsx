@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Classcompomenu from "./Classcompomenu";
 import Classcompointro from "./Classcompointro";
 import Classcompojsx from "./Classcompojsx";
+import Classcompoprops from "./Classcompoprops";
 
 class Classcomporoutes extends Component{
     render(){
@@ -11,6 +12,7 @@ class Classcomporoutes extends Component{
                 <Route path="/" element={<Classcompomenu />}>
                     <Route path="classcompointro" element={<Classcompointro />}/>
                     <Route path="classcompojsx" element={<Classcompojsx />}/>
+                    <Route path="classcompoprops" element={<Classcompoprops />}/>
 
                 </Route>
             </Routes>
