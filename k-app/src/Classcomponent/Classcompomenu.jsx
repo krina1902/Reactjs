@@ -12,6 +12,8 @@ class Classcompomenu extends Component{
                 <li><Link to="classcompostate">Classcompostate</Link></li>
                 <li><Link to="classcompostatelife">Classcompostatelife</Link></li>
                 <li><Link to="classconditionrendering">Classconditionrendering</Link></li>
+                <li><Link to="classcompouncontrolled">Classcompouncontrolled</Link></li>
+                <li><Link to="classcompocontrolled">Classcompocontrolled</Link></li>
             </ul>
             <Outlet></Outlet>
             </>
