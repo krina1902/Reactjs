@@ -9,6 +9,7 @@ import Classcompostatelife from "./Classcompostatelife";
 import Classconditionrendering from "./Classconditionrendering";
 import Classcompouncontrolled from "./Classcompouncontrolled";
 import Classcompocontrolled from "./Classcompocontrolled";
+import ClassListsandKeys from "./ClassListsandKeys";
 
 class Classcomporoutes extends Component{
     render(){
@@ -23,6 +24,7 @@ class Classcomporoutes extends Component{
                     <Route path="classconditionrendering" element={<Classconditionrendering />}/>
                     <Route path="classcompouncontrolled" element={<Classcompouncontrolled />}/>
                     <Route path="classcompocontrolled" element={<Classcompocontrolled />}/>
+                    <Route path="classlistsandkeys" element={<ClassListsandKeys />}/>
 
                     
 
