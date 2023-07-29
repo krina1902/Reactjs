@@ -15,6 +15,7 @@ class Classcompomenu extends Component{
                 <li><Link to="classcompouncontrolled">Classcompouncontrolled</Link></li>
                 <li><Link to="classcompocontrolled">Classcompocontrolled</Link></li>
                 <li><Link to="classlistsandkeys">Class lists and keys</Link></li>
+                <li><Link to="stateliftingchild">Stateliftingchild</Link></li>
             </ul>
             <Outlet></Outlet>
             </>
