@@ -1,25 +1,18 @@
 import React from "react";
 import { Component } from "react";
+import Updatecounter from "./HOC";
 
 class Clickcounter extends Component {
-    constructor(){
-        super()
-        this.state={
-            count:0
-        }
-    }
-    increment=()=>{
-        this.setState({count:this.state.count + 1})
-    }
     
     render() { 
+        const {count,increment} = this.props
         return (
             <>
             <p>Clickcounter</p>
-            <button onClick={this.increment}>{this.state.count}</button>
+            <button onClick={increment}>{count}</button>
             </>
         );
     }
+
 }
- 
-export default Clickcounter;
+export default Updatecounter(Clickcounter);
