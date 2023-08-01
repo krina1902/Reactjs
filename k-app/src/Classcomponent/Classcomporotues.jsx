@@ -11,6 +11,8 @@ import Classcompouncontrolled from "./Classcompouncontrolled";
 import Classcompocontrolled from "./Classcompocontrolled";
 import ClassListsandKeys from "./ClassListsandKeys";
 import Stateliftingchild from "../Statelifting/Stateliftingchild";
+import ClassCompotionandInheritance from "./ClassCompotionandInheritance";
+import Classhoc from "../HOC/Classhoc";
 
 class Classcomporoutes extends Component{
     render(){
@@ -27,6 +29,8 @@ class Classcomporoutes extends Component{
                     <Route path="classcompocontrolled" element={<Classcompocontrolled />}/>
                     <Route path="classlistsandkeys" element={<ClassListsandKeys />}/>
                     <Route path="stateliftingchild" element={<Stateliftingchild/>}/>
+                    <Route path="classcompotionandinheritance" element={<ClassCompotionandInheritance/>}/>
+                    <Route path="classhoc" element={<Classhoc/>}/>
 
                     
 
