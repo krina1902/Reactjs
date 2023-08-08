@@ -1,19 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
 import { Routes,Route } from "react-router-dom";
 import Functioncompomenu from "./Functioncompomenu";
 import Functioncompointro from "./Functioncompointro";
+import Usestate from "./Usestate";
 
-class Functioncomporoutes extends Component{
-    render(){
+const Functioncomporoutes = () =>{
         return(
             <>
             <Routes>
                 <Route path="/" element={<Functioncompomenu />}>
                     <Route path="/functioncompointro" element={<Functioncompointro />}/>
+                    <Route path="/usestate" element={<Usestate />}/>
+
                 </Route>
             </Routes>
             </>
         )
     }
-}
 export default Functioncomporoutes;

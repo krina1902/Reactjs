@@ -1,8 +1,7 @@
 import React from "react";
-import { Component } from "react";
 
-class Functioncompointro extends Component{
-    render(){
+
+const Functioncompointro = () =>{
         return(
             <>
             <div className="row">
@@ -14,5 +13,4 @@ class Functioncompointro extends Component{
             </>
         )
     }
-}
 export default Functioncompointro;

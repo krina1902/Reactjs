@@ -1,8 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link, Outlet } from "react-router-dom";
 
-class Functioncompomenu extends Component{
-    render(){
+const Functioncompomenu = () =>{
         return(
             <>
             <div className="container">
@@ -11,6 +10,7 @@ class Functioncompomenu extends Component{
                     <div className="col-6">
                     <ul>
                         <li><Link to="functioncompointro">Function Compo Intro</Link></li>
+                        <li><Link to="usestate">Usestate</Link></li>
                     </ul>
                     </div>
                 </div>
@@ -19,6 +19,5 @@ class Functioncompomenu extends Component{
             </>
             
         )
-    }
-}
+        }
 export default Functioncompomenu;
