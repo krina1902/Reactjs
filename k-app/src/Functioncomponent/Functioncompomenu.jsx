@@ -11,6 +11,11 @@ const Functioncompomenu = () =>{
                     <ul>
                         <li><Link to="functioncompointro">Function Compo Intro</Link></li>
                         <li><Link to="usestate">Usestate</Link></li>
+                        <li><Link to="userprops">Userprops</Link></li>
+                        <li><Link to="useeffect">Useeffect</Link></li>
+                        <li><Link to="uselayouteffect">Uselayouteffect</Link></li>
+
+
                     </ul>
                     </div>
                 </div>
