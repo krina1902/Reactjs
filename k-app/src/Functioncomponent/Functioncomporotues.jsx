@@ -7,6 +7,7 @@ import Userprops from "./Userprops";
 import Useeffect from "./Useeffect";
 import Uselayouteffect from "./Uselayouteffect";
 import Usememo from "./Usememo";
+import Usecallback from "./Usecallback";
 
 const Functioncomporoutes = () =>{
         return(
@@ -19,6 +20,8 @@ const Functioncomporoutes = () =>{
                     <Route path="/useeffect" element={<Useeffect />}/>
                     <Route path="/uselayouteffect" element={<Uselayouteffect />}/>
                     <Route path="/usememo" element={<Usememo />}/>
+                    <Route path="/usecallback" element={<Usecallback />}/>
+
 
 
 
