@@ -12,6 +12,7 @@ import Context from "./Context";
 import Usecontext from "./Usecontext";
 import Usereducer from "./Usereducer";
 import API from "./API";
+import Useref from "./Useref";
 
 const Functioncomporoutes = () =>{
         return(
@@ -29,6 +30,7 @@ const Functioncomporoutes = () =>{
                     <Route path="/usecontext" element={<Usecontext />}/>
                     <Route path="/usereducer" element={<Usereducer />}/>
                     <Route path="/api" element={<API />}/>
+                    <Route path="/useref" element={<Useref />}/>
                 </Route>
             </Routes>
             </>
