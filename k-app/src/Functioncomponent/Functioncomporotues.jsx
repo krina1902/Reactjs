@@ -11,6 +11,7 @@ import Usecallback from "./Usecallback";
 import Context from "./Context";
 import Usecontext from "./Usecontext";
 import Usereducer from "./Usereducer";
+import API from "./API";
 
 const Functioncomporoutes = () =>{
         return(
@@ -27,6 +28,7 @@ const Functioncomporoutes = () =>{
                     <Route path="/context" element={<Context />}/>
                     <Route path="/usecontext" element={<Usecontext />}/>
                     <Route path="/usereducer" element={<Usereducer />}/>
+                    <Route path="/api" element={<API />}/>
                 </Route>
             </Routes>
             </>
