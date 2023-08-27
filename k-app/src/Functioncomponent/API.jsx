@@ -27,7 +27,7 @@ const API = () => {
                     <td>{item.userId}</td>
                     <td>{item.id}</td>
                     <td>{item.title}</td>
-                    <td>{item.completed ? "true" : "false"}</td>
+                    <td>{item.completed.toString()}</td>
                 </tr>
                 )
             }
