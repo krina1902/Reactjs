@@ -21,6 +21,7 @@ const Functioncompomenu = () =>{
                         <li><Link to="usereducer">Usereducer</Link></li>
                         <li><Link to="api">API</Link></li>
                         <li><Link to="useref">Useref</Link></li>
+                        <li><Link to="apipost">Apipost</Link></li>
 
 
                     </ul>

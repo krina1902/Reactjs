@@ -1,19 +1,46 @@
 {
-  "posts": [
+  "forms": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "username": "Krina",
+      "email": "krinanatala@gmail.com",
+      "password": "goij;ok'ol",
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "username": "Dhruvin",
+      "email": "dhruvin@gmail.com",
+      "password": "122344",
+      "id": 2
+    },
+    {
+      "username": "Hema",
+      "email": "hema@gmail.com",
+      "password": "7890",
+      "id": 3
+    },
+    {
+      "username": "Harsukh",
+      "email": "harsukh@gmail.com",
+      "password": "7890",
+      "id": 4
+    },
+    {
+      "username": "Harsukh",
+      "email": "harsukh@gmail.com",
+      "password": "7890",
+      "id": 5
+    },
+    {
+      "username": "ruygluh;/",
+      "email": "giluhp;ojp'",
+      "password": "goij;ok'ol",
+      "id": 6
+    },
+    {
+      "username": "jhjkhlkj",
+      "email": "vjhb;klm':",
+      "password": "1234567",
+      "id": 7
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
