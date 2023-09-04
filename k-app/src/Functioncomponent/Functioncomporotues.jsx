@@ -14,6 +14,7 @@ import Usereducer from "./Usereducer";
 import API from "./API";
 import Useref from "./Useref";
 import Apipost from "./Apipost";
+import Custom from "./Custom";
 
 const Functioncomporoutes = () =>{
         return(
@@ -33,6 +34,8 @@ const Functioncomporoutes = () =>{
                     <Route path="/api" element={<API />}/>
                     <Route path="/useref" element={<Useref />}/>
                     <Route path="/apipost" element={<Apipost />}/>
+                    <Route path="/custom" element={<Custom/>}/>
+
 
                 </Route>
             </Routes>
