@@ -2,3 +2,14 @@
     text-align: center;
     margin: 20px 0;
 }
+.edit{
+    background-color:rgb(84, 84, 156);
+    padding: 10px 50px;
+    color: whitesmoke;
+    margin: 0 10px;
+}
+.del{
+    background-color:red;
+    padding: 10px 50px;
+    color: whitesmoke;
+}
