@@ -15,6 +15,7 @@ import API from "./API";
 import Useref from "./Useref";
 import Apipost from "./Apipost";
 import Custom from "./Custom";
+import Curd from "./Curd";
 
 const Functioncomporoutes = () =>{
         return(
@@ -35,6 +36,8 @@ const Functioncomporoutes = () =>{
                     <Route path="/useref" element={<Useref />}/>
                     <Route path="/apipost" element={<Apipost />}/>
                     <Route path="/custom" element={<Custom/>}/>
+                    <Route path="/curd" element={<Curd/>}/>
+
 
 
                 </Route>

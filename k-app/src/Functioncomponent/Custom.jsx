@@ -1,10 +1,12 @@
 import React from "react";
-import Compocustom from "./compocustom";
+import Compotwocustom from "./Compotwocustom";
+import Compoonecustom from "./Compoonecustom";
 
 const Custom = () => {
     return ( 
         <>
-        <Compocustom/>
+        <Compoonecustom/>
+        <Compotwocustom/>
         </>
      );
 }
