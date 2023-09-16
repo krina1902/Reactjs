@@ -12,6 +12,12 @@ const Curd = () => {
         }
     }
     console.log(list);
+    const handledel = (index) => {
+        // console.log("k");
+        console.log(index);
+        list.splice(index,1)
+        setList([...list])
+    }
     return ( 
         <>
         <div className="form">
@@ -19,11 +25,11 @@ const Curd = () => {
         <button onClick={handle}>Insert</button>
         </div>
         {
-            list.map((val)=>
+            list.map((val,i)=>
             <div className="form">
             <h1>{val}</h1>
             <button className="edit">Edit</button>
-            <button className="del">Delete</button>
+            <button className="del" onClick={() => handledel(i)}>Delete</button>
             </div>
             )
 

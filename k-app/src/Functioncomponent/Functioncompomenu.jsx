@@ -23,7 +23,7 @@ const Functioncompomenu = () =>{
                         <li><Link to="useref">Useref</Link></li>
                         <li><Link to="apipost">Apipost</Link></li>
                         <li><Link to="custom">Custom</Link></li>
-                        <li><Link to="curd">Curd</Link></li>
+                        <li><Link to="curd">Crud</Link></li>
 
 
 
