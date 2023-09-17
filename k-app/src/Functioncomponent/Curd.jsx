@@ -26,10 +26,9 @@ const Curd = () => {
         setShow(true)
     }
     const update = (i) => {
-        list.splice(edit,1,name)
+        list.splice(i,1,name)
         setShow(false)
-        setEdit(i)
-    
+        setName('')
     }
     return ( 
         <>
@@ -41,7 +40,7 @@ const Curd = () => {
         {
             list.map((val,i)=>
             <div className="form">
-            {!show ? <h1>{val}</h1> : <input type="text" value={name} onChange={(e)=> setName(e.target.value)}></input>
+            {!show ? <h1>{val}</h1> : <input type="text" value={val,name} onChange={(e)=> setName(e.target.value)}></input>
             }
             <button className="edit" onClick={() => handleedit(i)}>Edit</button>
             <button className="del" onClick={() => handledel(i)}>Delete</button>
