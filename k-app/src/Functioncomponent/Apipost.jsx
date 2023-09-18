@@ -12,7 +12,7 @@ const Apipost = () => {
         console.log({username,email,password});
         let data = {username,email,password}
 
-        fetch("http://localhost:3030/forms" , {
+        fetch("http://localhost:3031/forms" , {
             method : "POST",
             headers:{
             "Content-Type" : "application/json"
@@ -31,7 +31,7 @@ const Apipost = () => {
     }
    
     useEffect(() => {
-        fetch("http://localhost:3030/forms").then((data)=>{
+        fetch("http://localhost:3031/forms").then((data)=>{
             data.json().then((resp)=>{
                 console.log(resp);
                 setGete(resp)
