@@ -24,6 +24,8 @@ const Functioncompomenu = () =>{
                         <li><Link to="apipost">Apipost</Link></li>
                         <li><Link to="custom">Custom</Link></li>
                         <li><Link to="curd">Crud</Link></li>
+                        <li><Link to="apiaxios">Axios</Link></li>
+
 
 
 

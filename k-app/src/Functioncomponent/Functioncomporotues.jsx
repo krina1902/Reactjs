@@ -16,6 +16,7 @@ import Useref from "./Useref";
 import Apipost from "./Apipost";
 import Custom from "./Custom";
 import Curd from "./Curd";
+import Apiaxios from "./Apiaxios";
 
 const Functioncomporoutes = () =>{
         return(
@@ -37,6 +38,8 @@ const Functioncomporoutes = () =>{
                     <Route path="/apipost" element={<Apipost />}/>
                     <Route path="/custom" element={<Custom/>}/>
                     <Route path="/curd" element={<Curd/>}/>
+                    <Route path="/apiaxios" element={<Apiaxios/>}/>
+
 
 
 
