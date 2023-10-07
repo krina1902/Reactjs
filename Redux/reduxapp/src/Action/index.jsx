@@ -1,14 +1,14 @@
-// export const Incnumber = () => {
-//     return{
-//         type:"INCREMENT"
-//     }
-// }
+export const Incnumber = () => {
+    return{
+        type:"INCREMENT"
+    }
+}
 
-// export const Decnumber = () => {
-//     return{
-//         type:"DECREMENT"
-//     }
-// }
+export const Decnumber = () => {
+    return{
+        type:"DECREMENT"
+    }
+}
 
 export const Text = () => {
     return {
