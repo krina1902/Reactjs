@@ -1,11 +1,10 @@
-const initialState = {
-    color: 'white'
-  }
-let randomColor = Math.floor(Math.random() * 16777215).toString(16);
-const Changecolor = (state=initialState,action) => {
-    switch(action.type){ 
-      case "COLOR": return {...state, color:randomColor}
-        
+const initial = {color: "#ffffff"}
+// let randomColor = Math.floor(Math.random() * 16777215).toString(16);
+
+ export const bgkey = "bgstore"
+const Changecolor = (state=initial,action) => {
+    switch(action.type){
+        case "COLOR": return {color: "#" + Math.floor(Math.random() * 16777215).toString(16)} ;
         default: return state
 
     }
