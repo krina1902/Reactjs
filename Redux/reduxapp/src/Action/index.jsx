@@ -21,3 +21,9 @@ export const Background = () => {
         type:"BACKGROUND"
     }
 }
+
+export const Changecolor = () => {
+    return {
+        type:"COLOR"
+    }
+}
